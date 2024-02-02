@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jQuery from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Local JavaScript File -->
+    <script src="/js/navigation.js"></script>
+</head>
+
+<body>
+
+
+    <div class="toprow"><a class="toprow__lang-link" href="/es"><img alt="World icon" class="toprow__lang-icon"
+                data-entity-type="" data-entity-uuid="" src="/sites/default/files/ii/world.svg" /> <span
+                class="toprow__lang-text" id="lang-es"> Español </span> </a>
+        <div class="toprow__right"><a class="toprow__nav-link" href="/events"><img alt="calendar icon"
+                    class="toprow__nav-icon" data-entity-type="" data-entity-uuid=""
+                    src="/sites/default/files/ii/events.svg" /> <span class="toprow__nav-text">Events</span> </a> <a
+                class="toprow__nav-link" href="/locations"> <img alt="Map pin icon" class="toprow__nav-icon"
+                    data-entity-type="" data-entity-uuid="" src="/sites/default/files/ii/locations.svg" /> <span
+                    class="toprow__nav-text">Locations</span> </a>
+            <div class="toprow__account grid-col-auto toprow__bc-widget bc-widget bc-my-account-nav">&nbsp;</div>
+        </div>
+    </div>
+
+    <div id="apl-nav">
+        <div class="apl-grid-container grid-container">
+            <div class="grid-row left"><a class="aplmenu onlysmall nav-button" href="/" id="aplmenu"><img
+                        alt="Menu icon" data-entity-type="" data-entity-uuid=""
+                        src="/sites/default/files/ii/menu.svg" /><img alt="" data-entity-type="" data-entity-uuid=""
+                        src="/sites/default/files/ii/close.svg" style="display:none" /><span
+                        class="menucopy">Menu</span></a> <a class="first apllogo" href="/"><img
+                        alt="Austin Public Library" data-entity-type="" data-entity-uuid=""
+                        src="/sites/default/files/ii/library_logo.svg" /></a>
+
+                <ul class="apllinks onlybig grid-offset-5" id="sub-aplmenu">
+                    <li><a class="nav-button" href="/catalog" id="books-movies-more">Books &amp; Media</a></li>
+                    <li><a class="nav-button" href="/services" id="services">Services</a></li>
+                    <li><a class="nav-button" href="/research" id="research-learning">Research &amp; Learning</a></li>
+                </ul>
+
+                <div class="last aplsearch"><a class="nav-button last" href="#" id="search"><span
+                            class="onlybig">Search</span> <img alt="Search icon" data-entity-type="" data-entity-uuid=""
+                            src="/sites/default/files/ii/search.svg" /> <img alt="" class="onlyActive"
+                            data-entity-type="" data-entity-uuid="" src="/sites/default/files/ii/close.svg"
+                            style="display:none" /></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="apl-submenu grid-container" id="sub-search" style="display:none">
+        <form id="catalog_search" name="catalog_search"><input autofocus="" id="searchText"
+                placeholder="Search Books, Movies, More" type="text" /> <input alt="Search" class="imageButton"
+                src="/sites/default/files/ii/search2.svg" title="Search" type="image" />
+            <div id="opts">
+                <div class="opt"><input id="searchCat" name="searchType" type="radio" value="everything" /> <label
+                        for="searchCat">Search Books, Movies, More</label></div>
+
+                <div class="opt"><input id="searchWeb" name="searchType" type="radio" value="website" /> <label
+                        for="searchWeb">Search Website</label></div>
+            </div>
+        </form>
+    </div>
+
+    <div class="apl-submenu grid-container" id="sub-books-movies-more" style="display:none"><img
+            alt="Bookshelf with books" class="menu-img" data-entity-type="" data-entity-uuid=""
+            src="/sites/default/files/ii/books-menu.png" />
+        <ul class="apl-submenu-menu" id="books-menu">
+            <li><a href="https://austin.bibliocommons.com/" target="_blank">Browse Books &amp; Media</a></li>
+            <li><a href="https://austin.bibliocommons.com/v2/search?custom_edit=false&amp;query=formatcode%3A(AB%20OR%20GRAPHIC_NOVEL_DOWNLOAD%20OR%20EBOOK%20OR%20MAG_ONLINE%20OR%20AB_ONLINE%20)&amp;searchType=bl&amp;suppress=true"
+                    target="_blank">eBooks &amp; Audiobooks</a></li>
+            <li><a href="/virtual/magazines-newspapers">eMagazines &amp; Newspapers</a></li>
+            <li><a href="/interlibrary-loan">Interlibrary Loan</a></li>
+            <li><a href="/staff-recommend">Staff Recommend</a></li>
+            <li><a href="/streaming-entertainment">Streaming Movies &amp; Music</a></li>
+            <li><a href="https://austin.bibliocommons.com/suggested_purchases" target="_blank">Suggest a Purchase</a>
+            </li>
+        </ul>
+
+        <ul id="browse-button">
+            <li><a class="menu-button" href="https://austin.bibliocommons.com/" target="_blank">Browse Catalog</a></li>
+        </ul>
+    </div>
+
+    <div class="apl-submenu grid-container" id="sub-services" style="display:none"><img
+            alt="Woman standing in front of a kiosk" class="menu-img" data-entity-type="" data-entity-uuid=""
+            src="/sites/default/files/ii/services-menu.png" />
+        <ul class="apl-submenu-menu" id="services-menu">
+            <li id="apl-subsubmenu-1"><strong>Services</strong>
+
+                <ul class="apl-subsubmenu-1">
+                    <li><a href="/youth">For Kids</a></li>
+                    <li><a href="/teen">For Teens</a></li>
+                    <li><a href="/passports">Get a Passport</a></li>
+                    <li><a href="/mylibrarycard">Library Cards</a></li>
+                    <li><a href="/rental">Rent Event Spaces</a></li>
+                    <li><a href="/summer">Summer Programs</a></li>
+                </ul>
+            </li>
+            <li id="apl-subsubmenu-2"><strong>In the Library</strong>
+                <ul class="apl-subsubmenu-2">
+                    <li><a href="/gallery">Art Gallery</a></li>
+                    <li><a href="/shop">Gift Shop</a></li>
+                    <li><a href="/makerspace">Innovation Lab</a></li>
+                    <li><a href="/meeting-rooms">Meeting Rooms</a></li>
+                    <li><a href="/recycled-reads">Used Bookstore</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="apl-submenu grid-container" id="sub-research-learning" style="display:none"><img
+            alt="Woman writing on glass" class="menu-img" data-entity-type="" data-entity-uuid=""
+            src="/sites/default/files/ii/education-menu.png" />
+        <ul class="apl-submenu-menu" id="learning-menu">
+            <li><a href="/virtual/subjects">Digital Resource Subjects</a></li>
+            <li><a href="/ahc" target="_blank">Austin History</a></li>
+            <li><a href="/virtual/business-and-nonprofits">Business &amp; Nonprofits</a></li>
+            <li><a href="/digital/ejournal-finder">eJournal Finder</a></li>
+            <li><a href="/virtual/genealogy-and-people-search">Genealogy</a></li>
+            <li><a href="/virtual/homework-help">Homework Help</a></li>
+            <li><a href="/virtual/education-and-training">Online Learning</a></li>
+            <li><a href="https://library.austintexas.libguides.com/" target="_blank">Research Guides</a></li>
+        </ul>
+
+        <ul id="research-button">
+            <li><a class="menu-button" href="/virtual/all-databases">All Digital Resources</a></li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>
