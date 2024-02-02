@@ -1,0 +1,485 @@
+/****************************************
+* BASICS
+*****************************************/
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+body{
+  background: #DEDEDE;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+body#context_program {
+  background: #F1F1F1;
+}
+
+/****************************************
+* PRIMARY COLOR
+*****************************************/
+
+/* FEATURE::BootstrapCSS remove .checkbox */
+.bc_checkbox label, .checkbox label, .radio label, label .value, .label .value, ul.editSimilarTitles li .title a, ul.editSimilarTitles li .title, body, .editor h4, .noEdit h4, a.button, span.button, .back_container .back_to, .back_container .next_prev, .messages .listItem .title a, a.amazonLink, ul.subNav li a, ul.subNav li a:hover, .cp_reading_options a {
+  color: #404040;
+}
+.pagination a, .listItemTitleEditor .value a, .listItemTitleEditor .value, .editor a.button, .toutContent a, a:hover, span.title_extension, .title a:hover, .title a, a.criteriaShower, div.bigNum, .author a, .filterList a, .title, .openSelectBox ul li.hover, #full_record a, #saved_search_list li a, #mySavedSearches td a {
+  color: #06C;
+}
+
+h1, .contestTout h1, a.editLink, ul.subNav li.active a, #accountStatus ul li .total, .shelfBrowseButton:hover, .shelfBrowseButton, div.emptyList h2, div.emptyList span.highlight, h1.header_text em, div#audience_select a.active, div#audience_select a:hover, div.omdc_loggedIn a, .bibInfo h5, ul.subNav li.active a {
+  color: #D81116;
+}
+
+.userBlock a, #userNav .scopeBlock a, .expand a, .expander a, a, .expand .url_list a, a.underlined, #accountStatus a, .sch_disable strong {
+  color: #02729e;
+}
+
+
+a.help_link, a.help_icon, span.highlight {
+  color: #02729e;
+}
+
+form#registration span.pointer {
+  border-left-color: #02729e;
+}
+.add_account_form_wrapper a.inactive:hover {
+  background-color: #D81116;
+}
+.add_account_form_wrapper h2 {
+  color: #D81116;
+}
+
+.external_reviews .bottom-edge-gradient {
+  /* Found in item.css */
+  color: #02729e;
+}
+
+/* Digital Workflows */
+.digital_workflows { color: #404040; }
+.digital_workflows h2 { color: #404040; }
+.digital_workflows a { color: #02729e;}
+
+
+/****************************************
+* SECONDARY COLOR
+*****************************************/
+.toutContent h1, label, .label .filterList .count, #userContent .userContent .creator .date, .titleBlock .format {
+  color: #666;
+}
+.itemDetailsContent p.noContent, .help, .finePrint, a.flagButton, a.permalink, p.disclaimer, span.disclaimer, .userContent  a.ugc_edit_link {
+  color: #565656;
+}
+
+
+/****************************************
+* BORDERS
+*****************************************/
+
+.categories {
+  border-right-color: #AAA;
+}
+
+div.registration_info, .featured {
+  border-left-color: #AAA;
+}
+div.excerptBlock, .listItem td, .listItem {
+  border-color: #F2F2F2;
+}
+
+#globalSearch .autocompleter-choices li, .senderinfo {
+  border-top-color: #AAA;
+}
+
+.titleBlock, #accountStatus ul li {
+  border-bottom-color: #AAA;
+}
+
+#feedback form, select, textarea, input.text, input.password, #globalSearch .autocompleter-choices {
+  border-color: #c2c2c2;
+}
+
+/****************************************
+* BACKGROUND COLORS
+*****************************************/
+
+div#userActions {
+  background-color: ;
+}
+
+div#feedData div#recentUserName em {
+  color: ;
+}
+#accountStatus {
+  background: #FFFFFF;
+}
+#accountStatus ul li ol, #accountStatus ul li ul {
+  background: #f2f2f2;
+}
+
+/* TODOBOOTSTRAPCSS: remove .toutContent from here when removing the flag */
+/* TODORESPONSIVE: remove all the table & .odd references. use bootstrap */
+#subscription_details table tr.odd, .modal-box table tr.odd, #circulation_details table tr.odd, #volume_details table tr.odd, .toutContent, #marc_holdings_details div.odd, #marc_holdings_details tr.odd, #feature_toggles_tbl tr.odd{
+  background: #f2f2f2;
+}
+
+/****************************************
+* RANDOM - LEGACY
+*****************************************/
+.bibDetail .subTitle, .bibDetail .label, .subTitle {
+  color: ;
+}
+
+#userNav, #userNav a, #userNav a.userLink, #language a.userLink {
+  color: #56565a;
+}
+
+.hover {
+  background: #FFC;
+}
+
+h2, h3, h4 {
+  color: #262626;
+}
+
+span.library_highlight {
+  color: ;
+}
+
+
+/* TODO: Remove first selector after alligator_pepper is released */
+#header form h5, #header form h5 label {
+  color: #56565a;
+}
+
+#header form a.moreSearch {
+  color: #56565a;
+}
+
+#header form div.searchOptions label.inline {
+  color: #56565a;
+  border-color: #c2c2c2;
+}
+
+#header form div.searchOptions label.search_scope_label {
+  color: ;
+}
+#header select {
+  border-color: #c2c2c2;
+}
+
+
+/* Top tier navigation dropdown panels*/
+#mainNav > li div.dropDownContent, #mainNav li.extendedNav ul.second_tier {
+  background: #FFFFFF;
+  color: #333333;
+  border-color: #DEDEDE;
+}
+
+#mainNav li.dropDownItem a{
+  color: #333333;
+}
+
+#mainNav li.dropDownItem a:hover, #mainNav li.dropDownItem a:focus, #mainNav li.dropDownItem a:active {
+  background-color: #FFFFFF;
+  color: #56565a;
+}
+
+#mainNav > li.extendedNav ul.second_tier h5 {
+  color: #777;
+  border-bottom-color: #AAA;
+}
+
+
+/****************************************
+* FOOTER
+*****************************************/
+#footer {
+  color: #FFF;
+  background: #56565a;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+#footer a, #footer a:hover {
+  color: #FFF;
+}
+
+/****************************************
+* BUTTONS (legacy)
+* TODORESPONSIVE: remove when BootstrapCSS is live
+*****************************************/
+
+.search_button {
+  background-color: #d81116;
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -mozilla-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.search_button:hover {
+  background-color: ;
+}
+
+input.submit_button, a.submit_button, .action_items a.button {
+  background-color: #d81116;
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -mozilla-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+input.submit_button:hover, a.submit_button:hover, .action_items a.button:hover {
+  background-color: ;
+}
+
+.content a.login_button {
+  background-color: ;
+  color:  ;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -mozilla-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.content a.login_button:hover {
+  background-color: ;
+}
+
+/* TODO: remove .submit_button references */
+input.submit_button.continue, a.submit_button.continue {
+  background-color: #3366CC;
+  color: #ffffff;
+}
+
+input.submit_button.cancel, a.submit_button.cancel {
+  background-color: #313131;
+  color: #ffffff;
+}
+
+a.tab_button span.add_new_plus {
+  background-color: #d81116;
+  color: #ffffff;
+}
+
+/* TODO: ugc_button is deprecated. Should be converted to btn-personal */
+a.submit_button.ugc_button {
+  color: #FFFFFF;
+  background-color: #289AD0;
+}
+a.submit_button.circ_button {
+  color: #FFFFFF;
+  background-color: #3A9F43;
+}
+a.submit_button.info_button {
+  color: #FFFFFF;
+  background-color: #909C9B;
+}
+
+a.login_button {
+  color: #ffffff;
+  background-color: #d81116;
+}
+a.login_button:hover {
+  color: #ffffff;
+}
+
+
+
+/****************************************
+** BUTTONS (bootstrap)
+*****************************************/
+
+.btn.btn-primary {
+  color: white;
+  background-color: #d81116;
+  border: 1px solid transparent;
+}
+.btn.btn-primary.btn-flat {
+  border-color: #d81116;
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active, .open > .btn.btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #d81116;
+}
+.btn.btn-primary:active, .btn.btn-primary.active, .open > .btn.btn-primary.dropdown-toggle {
+  background-image: none;
+}
+.btn.btn-primary.disabled, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled:active, .btn.btn-primary.disabled.active, .btn.btn-primary[disabled], .btn.btn-primary[disabled]:hover, .btn.btn-primary[disabled]:focus, .btn.btn-primary[disabled]:active, .btn.btn-primary[disabled].active, fieldset[disabled] .btn.btn-primary, fieldset[disabled] .btn.btn-primary:hover, fieldset[disabled] .btn.btn-primary:focus, fieldset[disabled] .btn.btn-primary:active, fieldset[disabled] .btn.btn-primary.active {
+  background-color: #d81116;
+}
+.btn.btn-primary .badge {
+  color: #d81116;
+  background-color: white;
+}
+.btn.btn-ugc {
+  color: #d81116;
+  background-color: white;
+  border-color: #d81116;
+}
+.btn.btn-ugc:hover, .btn.btn-ugc:focus, .btn.btn-ugc:active, .btn.btn-ugc.active, .open > .btn.btn-ugc.dropdown-toggle {
+  color: #d81116;
+  background-color: #e6e6e6;
+  border-color: #d81116;
+}
+.btn.btn-ugc:active, .btn.btn-ugc.active, .open > .btn.btn-ugc.dropdown-toggle {
+  background-image: none;
+}
+.btn.btn-ugc.disabled, .btn.btn-ugc.disabled:hover, .btn.btn-ugc.disabled:focus, .btn.btn-ugc.disabled:active, .btn.btn-ugc.disabled.active, .btn.btn-ugc[disabled], .btn.btn-ugc[disabled]:hover, .btn.btn-ugc[disabled]:focus, .btn.btn-ugc[disabled]:active, .btn.btn-ugc[disabled].active, fieldset[disabled] .btn.btn-ugc, fieldset[disabled] .btn.btn-ugc:hover, fieldset[disabled] .btn.btn-ugc:focus, fieldset[disabled] .btn.btn-ugc:active, fieldset[disabled] .btn.btn-ugc.active {
+  background-color: white;
+  border-color: #d81116;
+}
+.btn.btn-ugc .badge {
+  color: white;
+  background-color: #d81116;
+}
+.btn.btn-ugc:hover, .btn.btn-ugc:focus, .open > .btn.btn-ugc.dropdown-toggle {
+  color: white;
+  background-color: #d81116;
+  border-color: #d81116;
+}
+
+.btn.btn-personal .btn-personal-label {
+  background-color: #d81116;
+  color: white;
+}
+
+.btn.btn-personal:hover, .btn.btn-personal:focus {
+  background-color: white;
+}
+.btn.btn-personal:hover .btn-personal-label, .btn.btn-personal:focus .btn-personal-label {
+  background-color: #d81116;
+  color: white;
+}
+
+
+.btn.btn-transactional {
+  color: white;
+  background-color: #008000;
+}
+.btn.btn-transactional:hover, .btn.btn-transactional:focus, .btn.btn-transactional:active, .btn.btn-transactional.active, .open > .btn.btn-transactional.dropdown-toggle {
+  color: white;
+  background-color: #008000;
+}
+.btn.btn-transactional:active, .btn.btn-transactional.active, .open > .btn.btn-transactional.dropdown-toggle {
+  background-image: none;
+}
+.btn.btn-transactional.disabled, .btn.btn-transactional.disabled:hover, .btn.btn-transactional.disabled:focus, .btn.btn-transactional.disabled:active, .btn.btn-transactional.disabled.active, .btn.btn-transactional[disabled], .btn.btn-transactional[disabled]:hover, .btn.btn-transactional[disabled]:focus, .btn.btn-transactional[disabled]:active, .btn.btn-transactional[disabled].active, fieldset[disabled] .btn.btn-transactional, fieldset[disabled] .btn.btn-transactional:hover, fieldset[disabled] .btn-transactional:focus, fieldset[disabled] .btn.btn-transactional:active, fieldset[disabled] .btn.btn-transactional.active {
+  background-color: #008000;
+}
+.btn.btn-transactional .badge {
+  color: #008000;
+  background-color: white;
+}
+
+.btn.btn-link {
+  color: #02729e;
+}
+
+/*************************
+* PRETTY CHECKBOX
+* primary variant should match the button colors
+**************************/
+.cp_pretty_checkbox .pretty_checkbox_primary:before {
+  background-color: #d81116;
+}
+
+
+.cp_pretty_checkbox input[type=checkbox]:checked ~ .pretty_checkbox_primary .check {
+  color: #d81116;
+}
+
+
+/****************************************
+* BOOTSTRAP
+*****************************************/
+
+/* UGC Panels */
+#community_content_accordion .panel-heading {
+  background-color: #d81116; /* TODO: delete. im positive this is no longer in use */
+}
+
+.list-group-item.active {
+  background-color: #d81116;
+}
+
+
+/*****************************************
+* RESPONSIVE REGISTRATION
+******************************************/
+
+.cp_registration {
+  border-top: 4px solid #d81116;
+}
+
+.cp_registration .header .active {
+  background-color: #d81116;
+  border-color: #d81116;
+}
+
+.cp_registration .section_indicator:after {
+  background-color: #d81116;
+}
+
+/* CATALOG SUBSCRIPTIONS */
+#subscriptions_list .subscription_card.subscribed_card .card_header {
+  background-color: #d81116;
+}
+
+/****************************************
+* USER LIST STACKED BORDER EFFECT
+*****************************************/
+.cp_user_list_item .user_list_item_inner, .cp-list-cover .list-cover {
+  box-shadow: 6px 6px 0 1px #999, 12px 12px 0 1px #d81116;
+}
+.cp_user_list_item .user_list_item_inner .list_type {
+  border-left: 5px solid #d81116;
+}
+
+/****************************************
+* CAROUSEL LISTS
+*****************************************/
+.cp_slider_for_lists_small .slider_wrapper .list_image 
+{
+  background-color: #d81116;
+  box-shadow: 6px 6px 0 1px #999, 12px 12px 0 1px #ccc;
+}
+.cp_slider_for_lists_small .slider_wrapper .list_image:hover
+{
+  background-color: #d81116;
+  box-shadow: 6px 6px 0 1px #999, 12px 12px 0 1px #ccc;
+}
+
+/****************************************
+* RESPONSIVE USER HEADER 
+*****************************************/
+
+.cp_user_header.home_patron .top_user_header {
+  background-color: ;
+}
+.cp_user_header.home_patron .bottom_user_header.dark_bg {
+  background: ;
+  box-shadow: inset 0px 54px 0px rgba(0,0,0,0.25);
+}
+.cp_user_header.home_patron .bottom_user_header.light_bg, .cp_user_header.home_patron .bottom_user_header.light_bg a {
+  color: ;
+}
+
+/****************************************
+* USER AVATAR & USER CARD
+*****************************************/
+.cp_user_avatar.home_patron .initial {
+  background: ;
+  box-shadow: inset 0px 54px 0px rgba(0,0,0,0.25);
+}
+.cp_user_card.home_patron .card {
+  color: ;
+}
+
+/****************************************
+* RESPONSIVE EXPLORE
+*****************************************/
+.cp_explore_panel {
+  border-top: 2px solid #d81116;
+}

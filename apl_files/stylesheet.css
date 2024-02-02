@@ -1,0 +1,19 @@
+#language a.userLink {
+  color: #000000;
+}
+
+.cp_slider_for_lists_small .slider_wrapper .list_image {
+  background-color: #0060a5;
+}
+
+.cp_slider_for_lists_small .slider_wrapper .list_image:hover {
+  background-color: #0060a5;
+}
+
+#header .search_button {
+  right: 11px;
+}
+
+
+
+
