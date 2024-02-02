@@ -10,7 +10,9 @@ let links = document.querySelectorAll('.nav-button');
 // Get the radio buttons and search input elements
 var searchInput = document.getElementById('searchText');
 var form = document.getElementById('catalog_search');
-searchInput.focus();
+if (searchInput) {
+    searchInput.focus();
+}
 
 // Set default checked radio button
 document.getElementById('searchCat').checked = true;
